@@ -1,0 +1,8 @@
+[package]
+name = "invsqrt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pulp = "0.18.12"
+rlst = {git ="https://github.com/linalg-rs/rlst.git", branch = "simd"}
